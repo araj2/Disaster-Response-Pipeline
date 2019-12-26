@@ -20,8 +20,8 @@ The app uses a ML model to categorize any new messages received, and the reposit
 - From the current working directory, run the following command: python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 ## Run train_classifier.py
 - In the current working directory, create a folder called 'models' and save train_classifier.py in this.
-From the current working directory, run the following command: python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
-- Run the web app
-Save the app folder in the current working directory.
-Run the following command in the app directory: python run.py
-Go to http://0.0.0.0:3001/
+- From the current working directory, run the following command: python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl
+## Run the web app
+- Save the app folder in the current working directory.
+- Run the following command in the app directory: python run.py
+- Go to http://0.0.0.0:3001/
